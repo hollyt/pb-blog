@@ -1,0 +1,17 @@
+# Site settings
+title: blah
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+    bl00p
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://hollyt.github.io" # the base hostname & protocol for your site
+github:  https://github.com/hollyt
+
+# Build settings
+markdown: kramdown
+
+paginate: 3
+paginate_path: "page:num"
+
+
+gems: [jekyll-paginate] 
